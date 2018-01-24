@@ -49,6 +49,9 @@ html, body{
     font-family: 'Fredoka One', cursive;
    
 }
+#fimJogo{
+    display: none;
+}
 
 body{
 background-color: rgb(70, 68, 68);

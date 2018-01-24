@@ -18,16 +18,20 @@
     <div id="container" class="container">
         <h1 id= "logo">
             <span id="red">B</span><span id="yellow">u</span><span id="blue">b</span><span id="green">b</span><span id="orange">l</span><span id="pink">e</span> Game</h1>
-        <h2>Pontuação:
+        <h2 id="pontuacao">Pontuação:
             <span id="score">0</span>
         </h2>
-      
+        <h3 id="fimJogo">
+        
+        </h3>
+      <div id="config">
         <select id="dificuldade" class="form-control">
             <option value="1">Fácil</option>
             <option value="2">Médio</option>
             <option value="3">Difícil</option>
         </select>
         <button id = "btn" class="btn btn-primary" onclick="start(document.getElementById('dificuldade').value)">Começar</button>
+    </div>
     </div>
 </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
